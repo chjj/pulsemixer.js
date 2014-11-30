@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+/**
+ * pulsemixer.js - an alsamixer-like interface for PulseAudio
+ * Copyright (c) 2014, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/chjj/pulsemixer.js
+ */
+
+var pulsemixer = require('../');
+
+pulsemixer.start(function(err) {
+  if (err) {
+    console.error(err.message);
+    return process.exit(1);
+  }
+  return process.exit(0);
+});

@@ -1,0 +1,22 @@
+{
+  "name": "pulsemixer",
+  "description": "An alsamixer-like interface for PulseAudio",
+  "author": "Christopher Jeffrey",
+  "version": "0.0.0",
+  "main": "./lib/pulsemixer.js",
+  "bin": "./bin/pulsemixer",
+  "man": "./man/pulsemixer.1",
+  "preferGlobal": true,
+  "repository": "git://github.com/chjj/pulsemixer.js.git",
+  "homepage": "https://github.com/chjj/pulsemixer.js",
+  "bugs": { "url": "http://github.com/chjj/pulsemixer.js/issues" },
+  "license": "MIT",
+  "keywords": ["pulse", "audio", "pulseaudio", "pulsemixer", "alsamixer"],
+  "tags": ["pulse", "audio", "pulseaudio", "pulsemixer", "alsamixer"],
+  "dependencies": {
+    "blessed": "0.0.37"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
